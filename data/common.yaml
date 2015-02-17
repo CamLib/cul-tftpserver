@@ -1,0 +1,9 @@
+---
+tftpserver::packages:
+    - tftpd-hpa
+
+tftpserver::version: 'latest'
+
+tftpserver::tftpdir: '/var/lib/tftpboot'
+tftpserver::optionsfile: '/etc/default/tftpd-hpa'
+tftpserver::options: '--secure -c'
