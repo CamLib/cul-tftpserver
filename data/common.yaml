@@ -3,7 +3,12 @@ tftpserver::packages:
     - tftpd-hpa
 
 tftpserver::version: 'latest'
+tftpserver::enable: 'true'
+tftpserver::start: 'true'
+tftpserver::ensure: 'running'
 
-tftpserver::tftpdir: '/var/lib/tftpboot'
 tftpserver::optionsfile: '/etc/default/tftpd-hpa'
-tftpserver::options: '--secure -c'
+tftpserver::listen: '[::]'
+tftpserver::user: 'tftp'
+tftpserver::tftpdir: '/var/lib/tftpboot'
+tftpserver::options: '--secure'
