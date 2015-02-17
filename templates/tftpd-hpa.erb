@@ -1,4 +1,4 @@
-TFTP_USERNAME="tftp"
+TFTP_USERNAME="<%= @user -%>"
 TFTP_DIRECTORY="<%= @tftpdir -%>"
-TFTP_ADDRESS="0.0.0.0:69"
+TFTP_ADDRESS="<%= @listen -%>:69"
 TFTP_OPTIONS="<%= @options -%>"
