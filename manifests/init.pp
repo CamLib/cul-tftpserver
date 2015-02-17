@@ -4,7 +4,7 @@ class tftpserver (
     $packages    = [],
     $version     = 'latest',
     $esure       = 'running',
-    $listen      = '0.0.0.0',
+    $listen      = '[::]',
     $user        = 'tftp',
     $tftpdir     = '/var/lib/tftpboot',
     $optionsfile = '/etc/default/tftpd-hpa',
