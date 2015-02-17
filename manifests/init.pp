@@ -1,5 +1,5 @@
 class tftpserver (
-    $packages    = [].
+    $packages    = [],
     $version     = 'latest',
     $tftpdir     = '/var/lib/tftpboot',
     $optionsfile = '/etc/default/tftpd-hpa',
