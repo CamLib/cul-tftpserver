@@ -5,7 +5,6 @@ tftpserver::packages:
 tftpserver::version: 'latest'
 tftpserver::enable: 'true'
 tftpserver::start: 'true'
-tftpserver::ensure: 'running'
 
 tftpserver::optionsfile: '/etc/default/tftpd-hpa'
 tftpserver::listen: '[::]'

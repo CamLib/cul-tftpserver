@@ -3,7 +3,6 @@ class tftpserver (
     $start       = true,
     $packages    = [],
     $version     = 'latest',
-    $esure       = 'running',
     $listen      = '[::]',
     $user        = 'tftp',
     $tftpdir     = '/var/lib/tftpboot',
