@@ -1,6 +1,7 @@
 ---
 tftpserver::packages:
     - tftpd-hpa
+    - syslinux
 
 tftpserver::version: 'latest'
 tftpserver::enable: 'true'
